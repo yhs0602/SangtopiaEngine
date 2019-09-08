@@ -18,6 +18,44 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Action.h" />
+    <ClInclude Include="ActionMove.h" />
+    <ClInclude Include="Construction.h" />
+    <ClInclude Include="Coord.h" />
+    <ClInclude Include="IAttackable.h" />
+    <ClInclude Include="IBeatenable.h" />
+    <ClInclude Include="ICapturable.h" />
+    <ClInclude Include="IOverlay.h" />
+    <ClInclude Include="Parameter.h" />
+    <ClInclude Include="Path.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerAI.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SangGame.h" />
+    <ClInclude Include="SangtopiaEngine.h" />
+    <ClInclude Include="Terrain.h" />
+    <ClInclude Include="Unit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Action.cpp" />
+    <ClCompile Include="ActionMove.cpp" />
+    <ClCompile Include="Construction.cpp" />
+    <ClCompile Include="Coord.cpp" />
+    <ClCompile Include="IAttackable.cpp" />
+    <ClCompile Include="IBeatenable.cpp" />
+    <ClCompile Include="ICapturable.cpp" />
+    <ClCompile Include="IOverlay.cpp" />
+    <ClCompile Include="Parameter.cpp" />
+    <ClCompile Include="Path.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerAI.cpp" />
+    <ClCompile Include="Resource.cpp" />
+    <ClCompile Include="SangGame.cpp" />
+    <ClCompile Include="SangtopiaEngine.cpp" />
+    <ClCompile Include="Terrain.cpp" />
+    <ClCompile Include="Unit.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{E91F17C7-3590-471D-8DAF-EE720B4D0FF4}</ProjectGuid>
@@ -114,8 +152,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
