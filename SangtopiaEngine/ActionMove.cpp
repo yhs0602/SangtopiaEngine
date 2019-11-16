@@ -1,6 +1,6 @@
 #include "ActionMove.h"
-
-
+#include "SangGame.h"
+#include "SangtopiaEngine.h"
 
 ActionMove::ActionMove(Unit * unit, Path * path)
 {
@@ -21,5 +21,5 @@ void * ActionMove::Invoke()
 		subject->MoveTo(coord);		//MoveTo updates coord, invokes the target and oirinal place
 		SangGame::getGame()->getEngine()->refresh();
 	}
-
+	return NULL;
 }

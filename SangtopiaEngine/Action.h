@@ -1,6 +1,4 @@
 #pragma once
-#include "Parameter.h"
-#include "SangGame.h"
 //동사 부분과 매개 변수를 가진다.
 // 주체: Parameter
 // 

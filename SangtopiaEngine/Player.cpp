@@ -1,11 +1,14 @@
 #include "Player.h"
 
-
+wchar_t * Player::getName()
+{
+	return name;
+}
 
 Player::Player(SangGame *game,wchar_t * name)
 {
 	this->game = game;
-	this->name = name;
+	this->name = _wcsdup(name);
 }
 
 

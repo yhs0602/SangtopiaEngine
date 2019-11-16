@@ -2,7 +2,7 @@
 
 
 
-PlayerAI::PlayerAI(SangGame * game, int difficulty):Player(game,L"AI")
+PlayerAI::PlayerAI(SangGame * game, int difficulty, wchar_t * name):Player(game,name)
 {
 	this->difficulty = difficulty;
 }
