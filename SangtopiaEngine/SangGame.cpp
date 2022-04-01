@@ -82,4 +82,23 @@ SangtopiaEngine * SangGame::getEngine()
 void SangGame::Start()
 {
 	SangtopiaEngine::Info("Game started");
+	//Create Terrains
+
+	//Position resources
+
+	//Position villages
+
+	//Position players
+
+	//Initialize players
+
+	//Render1
+
+	//GetInput
+
+}
+
+void SangGame::NextTurn()
+{
+
 }

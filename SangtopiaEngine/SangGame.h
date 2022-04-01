@@ -21,6 +21,7 @@ public:
 	static SangGame * getGame();
 	SangtopiaEngine * getEngine();
 	void Start();
+	void NextTurn();
 private:
 	SangtopiaEngine * engine;
 	Player ** players;
